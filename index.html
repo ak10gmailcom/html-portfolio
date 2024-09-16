@@ -1,38 +1,37 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankush Portfolio</title>
- </head>
- <body>
-    <h1>Ankush kharapkar portfolio </h1>
-    <h2>I'm a salesforce developer and currentely learning web development. </h2>
-<hr/>
-<a href="./public/movie-ranking.html"> Movie ranking project</a>
-<br/>
-<img src="./assets/images/image.png" height="300" alt="Movie ranking project"/>
-<hr/>
-<a href="./public/birthday-invite.html">Birthday invite project</a>
-<br/>
-<img src="./assets/images/Birthday Pic of ak.png" height="300" alt="Birthday Invitation"/>
-<hr/>
-<a href="./public/about.html">About Me</a>
-<a href="./public/contact.html">Contact Me</a>
+<html>
+    <head><link rel="stylesheet" href="style.css"/>
+    <script src="sccript.js"></script>
+    </head>
+<body> 
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    
+
+    
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DIT000002PODq" method="POST">
+    
+    <input type=hidden name="oid" value="00DIT000002PODq">
+    <input type=hidden name="retURL" value="http://">
+    
+    
+    
+    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required="true" /><br>
+    
+    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required="true" /><br>
+    
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" required="true" /><br>
+    
+    <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" required="true"/><br>
+    
+    <label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" required="true"/><br>
+    
+    <label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" required="true"/><br>
+
+    <label>Lead Date</label><input type="date" required="true" class="inputdate"/><input type="hidden" name="Lead_Date__c" class="outputdate" />
+    
+    <input type="submit" name="submit">
+
+    
+    </form>
 </body>
- </html>
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
+    </html>
+    
